@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/etc/profile.d'
+let g:netrw_dirhist_2='/home/ashton/.subversion'
+let g:netrw_dirhist_3='/home/ashton/Subversion/rgs/rw/pen/receiver/linux'
+let g:netrw_dirhist_4='/var'
+let g:netrw_dirhist_5='/var/log/httpd'
+let g:netrw_dirhist_6='/home/ashton/Subversion/rgs/RegistrationWebService/config'
+let g:netrw_dirhist_7='/home/ashton/rubyProject/RGSAuthenticationServer/config'
+let g:netrw_dirhist_8='/var/www/RegistrationWebService'
+let g:netrw_dirhist_9='/home/ashton/Subversion/rgs/rw/utilities'
