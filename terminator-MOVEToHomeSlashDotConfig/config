@@ -1,0 +1,22 @@
+[global_config]
+  title_inactive_fg_color = "#1dff00"
+  title_receive_fg_color = "#13f200"
+[keybindings]
+[profiles]
+  [[default]]
+    use_system_font = False
+    background_darkness = 0.93
+    background_image = None
+    foreground_color = "#23ff50"
+    font = Courier 10 Pitch 12
+    background_color = "#2c2a2a"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
