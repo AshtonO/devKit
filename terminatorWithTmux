@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/ashton/terminator-0.97/terminator -e /home/ashton/Downloads/tmux-1.9a/tmux
