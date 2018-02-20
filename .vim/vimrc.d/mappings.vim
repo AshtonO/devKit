@@ -1,6 +1,7 @@
 " Pretty simple, I don't want to keep hitting
 " tab
 syn on
+let mapleader =","
 
 function! PreservingKeymap( exe )
     let tmpmap=&keymap
@@ -67,7 +68,8 @@ map <C-n><C-m> <Leader>mt
 " Set up some stuff for ctags
 let Tlist_Ctags_Cmd = "ctags"
 let Tlist_WinWidth = 50
-map <F8> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+"map <F8> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <F8> :!ctags -R .<CR>
 
 " set semi colon to just append a semi
 " colon at the end of the line
@@ -204,6 +206,8 @@ map <leader><leader>c :ErrorAtCursor<CR>
 "Make return and Backspace work in normal mode
 nnoremap <Return> i<Return><Esc>
 nnoremap <BS> i<BS><Esc>l
+map <Leader>b <C-]>
+
 
 
 source ~/.vim/vimrc.d/ext/altgr.vim

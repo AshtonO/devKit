@@ -2,7 +2,9 @@
 " The greatest for 16 color mode though
 "colorscheme 256_jungle 
 "colorscheme asmdev
-colorscheme Dim2
+"colorscheme Dim2
+colorscheme outrun
+"colorscheme onedark
 " for when and if I decide to display tabs
 hi SpecialKey ctermfg=235 guifg=gray
 
